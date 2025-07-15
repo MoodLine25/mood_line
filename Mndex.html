@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Line - Featured Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 20px;
+      background-color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .logo-container {
+      text-align: center;
+      margin: 30px 0 10px;
+    }
+
+    .logo-container img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    .featured-products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .product-card {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 220px;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product-name {
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .product-price {
+      color: #e91e63;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+
+    .product-note {
+      font-size: 14px;
+      color: #555;
+    }
+.product-grid {
+ justify-content: center;
+  display: flex;
+  flex-wrap: nowrap; /* حتى يضلوا جنب بعض وما ينزلوا لسطر جديد */
+  overflow-x: auto;  /* شريط تمرير أفقي عند الحاجة */
+  gap: 20px;
+  padding-bottom: 20px;
+}
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #fff;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .logo-container {
+    text-align: center;
+    margin: 30px 0 10px;
+  }
+
+  .logo-container img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .product-grid, .featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(25% - 20px); /* 4 كروت بالسطر مع gap */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .product-name {
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+
+  .product-price {
+    color: #e91e63;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .product-note {
+    font-size: 14px;
+    color: #555;
+  }
+</style>
+
+</head>
+<body>
+
+  <!-- Logo -->
+  <div class="logo-container">
+    <img src="pic.png" alt="Mood Line Logo" />
+  </div>
+
+ <h1> פינה אוכל</h1>
+<div class="product-grid">
+  <div class="product-card">
+    <img src="pic66.jpeg" alt="Chair 1">
+    <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+  <div class="product-card">
+    <img src="pic65.jpeg" alt="Chair 2">
+        <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+  <div class="product-card">
+    <img src="pic67.jpeg" alt="Chair 3">
+       <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+  <div class="product-card">
+    <img src="pic68.jpeg" alt="Chair 4">
+       <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+
+  <div class="product-card">
+    <img src="pic70.jpeg" alt="Chair 4">
+      <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+  <div class="product-card">
+    <img src="pic71.jpeg" alt="Chair 4">
+        <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+  <div class="product-card">
+    <img src="pic72.jpeg" alt="Chair 4">
+       <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+  <div class="product-card">
+    <img src="pic73.jpeg" alt="Chair 4">
+       <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+  <div class="product-card">
+    <img src="pic74.jpeg" alt="Chair 4">
+        <div class="product-name"></div>
+    <div class="product-code"></div>
+    <div class="product-price"></div>
+  </div>
+
+
+</div>
+
+
+  <!-- מיטות Section -->
+  <h1>מיטות</h1>
+  <div class="featured-products">
+
+    <!-- كل المنتجات داخل نفس featured-products -->
+
+    <div class="product-card">
+      <img src="pic1.jpeg" alt="מיטה אפורה" />
+      <div class="product-name">מיטה </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic2.jpeg" alt="מיטה לבנה" />
+      <div class="product-name">מיטה </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic3.jpeg" alt="מיטה " />
+      <div class="product-name">מיטה </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic4.jpg" alt="מיטה זוגית" />
+          <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic5.jpeg" alt="מיטה זוגית" />
+          <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic6.jpeg" alt="מיטה " />
+        <div class="product-name">מיטות </div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic7.jpeg" alt="מיטה " />
+           <div class="product-name">מיטות </div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic8.jpeg" alt="מיטה " />
+          <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic9.jpeg" alt="מיטה " />
+         <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic10.jpeg" alt="מיטה זוגית" />
+        <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+ 
+  <div class="product-card">
+      <img src="pic12.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">מיטות </div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic13.jpeg" alt="מיטה " />
+     <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+  
+  <div class="product-card">
+      <img src="pic15.jpeg" alt="מיטה זוגית" />
+          <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic16.jpeg" alt="מיטה זוגית" />
+          <div class="product-name">מיטות </div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic17.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic19.jpeg" alt="מיטה זוגית" />
+      <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic20.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">מיטות </div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic21.jpeg" alt="מיטה זוגית" />
+        <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+
+ 
+     <!-- آخر منتج -->
+    <div class="product-card">
+      <img src="pic22.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מיטות </div>
+      <div class="product-price">₪1000</div>
+      <div class="product-note"></div>
+    </div>
+    <div class="product-card">
+      <img src="pic23.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">מיטות </div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+    <div class="product-card">
+      <img src="pic25.jpeg" alt="מיטה זוגית" />
+        <div class="product-name">מיטות </div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+
+
+
+  </div>
+
+  <!-- ספות Section -->
+  <h1>ספות</h1>
+  <div class="featured-products">
+
+    <!-- كل المنتجات داخل نفس featured-products -->
+
+    <div class="product-card">
+      <img src="pic26.jpeg" alt="מיטה אפורה" />
+      <div class="product-name">ספה  </div>
+      <div class="product-price">₪2400</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic27.jpeg" alt="מיטה לבנה" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+
+    <div class="product-card">
+      <img src="pic28.jpeg" alt="מיטה זוגית" />
+              <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+
+    <div class="product-card">
+      <img src="pic29.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+
+    <div class="product-card">
+      <img src="pic30.jpeg" alt="מיטה זוגית" />
+            <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+
+    <div class="product-card">
+      <img src="pic31.jpeg" alt="מיטה זוגית" />
+             <div class="product-name">ספה  </div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic32.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">ספה  </div>
+      <div class="product-price">₪2500</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic33.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic34.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2500</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic35.jpeg" alt="מיטה זוגית" />
+          <div class="product-name">ספה  </div>
+      <div class="product-price">₪2500</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic36.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">ספה  </div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic37.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic38.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic39.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic40.jpeg" alt="מיטה זוגית" />
+          <div class="product-name">ספה  </div>
+      <div class="product-price">₪2500</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic41.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic42.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">ספה  </div>
+      <div class="product-price">₪2300</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic43.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">ספה  </div>
+      <div class="product-price">₪2500</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic44.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪3200</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic45.jpeg" alt="מיטה זוגית" />
+           <div class="product-name">ספה  </div>
+      <div class="product-price">₪2500</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic46.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic81.jpeg" alt="מיטה אפורה" />
+         <div class="product-name">ספה  </div>
+      <div class="product-price">₪2700</div>
+      <div class="product-note"></div>
+    </div>
+
+  </div>
+ <!-- מזנונים ושולחנות סלון Section -->
+  <h1>מזנונים ושולחנות סלון</h1>
+  <div class="featured-products">
+
+    <!-- كل المنتجات داخل نفس featured-products -->
+
+    <div class="product-card">
+      <img src="pic47.jpeg" alt="מיטה אפורה" />
+      <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic48.jpeg" alt="מיטה לבנה" />
+       <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic49.jpeg" alt="מיטה זוגית" />
+        <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic50.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic51.jpeg" alt="מיטה זוגית" />
+      <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic52.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic53.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic54.jpeg" alt="מיטה זוגית" />
+      <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic56.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic57.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1200</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic58.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1800</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic59.jpeg" alt="מיטה זוגית" />
+        <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1500</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic60.jpeg" alt="מיטה זוגית" />
+      <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1500</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic61.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1500</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic62.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1800</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic63.jpeg" alt="מיטה זוגית" />
+        <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪1800</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic75.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic76.jpeg" alt="מיטה זוגית" />
+      <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic77.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic78.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic79.jpeg" alt="מיטה זוגית" />
+        <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic80.jpeg" alt="מיטה זוגית" />
+         <div class="product-name">מִזנוֹן</div>
+      <div class="product-price">₪2000</div>
+      <div class="product-note"></div>
+    </div>
+
+  </div>
+ <!--ארונות Section -->
+  <h1>ארונות  </h1>
+  <div class="featured-products">
+
+    <!-- كل المنتجات داخل نفس featured-products -->
+
+    <div class="product-card">
+      <img src="pic82.jpeg" alt="מיטה אפורה" />
+      <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic83.jpeg" alt="מיטה לבנה" />
+      <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic84.jpeg" alt="מיטה זוגית" />
+  <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic85.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic86.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic87.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic89.jpeg" alt="מיטה זוגית" />
+      <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+ 
+  <div class="product-card">
+      <img src="pic92.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic93.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic94.jpeg" alt="מיטה זוגית" />
+     <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic95.jpeg" alt="מיטה זוגית" />
+   <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic96.jpeg" alt="מיטה זוגית" />
+       <div class="product-name">אָרוֹן   </div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+ 
+  </div>
+ <!--ארונות Section -->
+  <h1>אי מתבח  </h1>
+  <div class="featured-products">
+
+    <!-- كل المنتجات داخل نفس featured-products -->
+
+    <div class="product-card">
+      <img src="pic97.jpeg" alt="מיטה אפורה" />
+      <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic98.jpeg" alt="מיטה לבנה" />
+         <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic99.jpeg" alt="מיטה זוגית" />
+       <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic100.jpeg" alt="מיטה זוגית" />
+       <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic101.jpeg" alt="מיטה זוגית" />
+        <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+    <div class="product-card">
+      <img src="pic102.jpeg" alt="מיטה זוגית" />
+         <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+  <div class="product-card">
+      <img src="pic103.jpeg" alt="מיטה זוגית" />
+        <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+  <div class="product-card">
+      <img src="pic104.jpeg" alt="מיטה זוגית" />
+       <div class="product-name"></div>
+      <div class="product-price"></div>
+      <div class="product-note"></div>
+    </div>
+
+
+</body>
+</html>
